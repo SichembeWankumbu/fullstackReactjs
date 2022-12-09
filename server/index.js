@@ -3,7 +3,7 @@ const express = require ('express');
 const bodyParser = require('body-parser');
 const database = require('./database');
 const ENV = process.env.Node_ENV;
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 var db = require('./database');
 const app = express();
